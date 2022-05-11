@@ -89,6 +89,8 @@ CREATE TABLE IF NOT EXISTS `oauth_refresh_token` (
 
 -- 数据导出被取消选择。
 
+INSERT INTO `oauth_client_details` VALUES ('client1', null, '$2a$10$gHuWjNganVaoIH.6utsqReR/YsUf0d7S.Iweo/laAcQ4qH3fKomxa', 'read write', 'authorization_code,password,refresh_token,client_credentials,implicit', 'http://localhost', null, '432000000', '432000000', null, null);
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
